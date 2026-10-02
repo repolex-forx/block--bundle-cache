@@ -89,6 +89,64 @@
       ],
       "ast": [
         "aggregate/ast/dd4f7350c97faae6e8eeb998997a97b17488542c/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/dd4f7350c97faae6e8eeb998997a97b17488542c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "github.com/alecthomas/errors",
+          "ecosystem": "GO",
+          "version": "0.9.1",
+          "githubOrg": "alecthomas",
+          "githubRepo": "errors",
+          "githubCommit": "00149f4eb6905e6c7cd7dbd89e0cbe0a1ca0956d",
+          "githubTag": "v0.9.1",
+          "githubUrl": "https://github.com/alecthomas/errors",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/alecthomas/kong",
+          "ecosystem": "GO",
+          "version": "1.16.1",
+          "githubOrg": "alecthomas",
+          "githubRepo": "kong",
+          "githubCommit": "0678fd30af8be8bae6dc9f9c6f143cc549450be2",
+          "githubTag": "v1.16.1",
+          "githubUrl": "https://github.com/alecthomas/kong",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/klauspost/compress",
+          "ecosystem": "GO",
+          "version": "1.20.0",
+          "githubOrg": "klauspost",
+          "githubRepo": "compress",
+          "githubCommit": "9d8ccb1d9567304420eb55a88b6f63a2067a8da4",
+          "githubTag": "v1.20.0",
+          "githubUrl": "https://github.com/klauspost/compress",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/minio/crc64nvme",
+          "ecosystem": "GO",
+          "version": "1.1.1",
+          "githubOrg": "minio",
+          "githubRepo": "crc64nvme",
+          "githubCommit": "cc422c7b1355e33091486ab1e6d461aba6fcaf69",
+          "githubTag": "v1.1.1",
+          "githubUrl": "https://github.com/minio/crc64nvme",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/klauspost/cpuid/v2",
+          "ecosystem": "GO",
+          "version": "2.2.9",
+          "githubOrg": "klauspost",
+          "githubRepo": "cpuid",
+          "githubCommit": "ee7cba987ff4d8747807f9e616ac1b8fac8119b9",
+          "githubTag": "v2.2.9",
+          "githubUrl": "https://github.com/klauspost/cpuid",
+          "source": "build_file:go.mod"
+        }
       ]
     }
   ],

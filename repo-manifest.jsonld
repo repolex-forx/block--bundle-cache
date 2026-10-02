@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/bundle-cache/commit/dd4f7350c97faae6e8eeb998997a97b17488542c",
       "git:hexsha": "dd4f7350c97faae6e8eeb998997a97b17488542c",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "main"
     },
     {

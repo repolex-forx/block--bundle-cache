@@ -1,0 +1,25 @@
+[2026-10-02T11:24:50Z] === ENRICH ITERATION 1 START | repo=block/bundle-cache sha=dd4f7350 ===
+[2026-10-02T11:24:50Z] [iter=1] PHASE START: enrich repo=block/bundle-cache sha=dd4f7350 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/dd4f7350-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/dd4f7350c97faae6e8eeb998997a97b17488542c.nq.gz
+[2026-10-02T11:24:55Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-10-02T11:25:24Z] [iter=1] AST store loaded triples=3207420 load_secs=28 mem_mb=906 MB
+[2026-10-02T11:25:24Z] [iter=1] Step 2: Finding LSP targets mem_mb=906 MB
+[2026-10-02T11:25:30Z] [iter=1] LSP targets found call_sites=23407 imports=8 extends=192 implements=0 secs=6
+[2026-10-02T11:25:34Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=906 MB
+[2026-10-02T11:25:53Z] [iter=1] Position index built positions=223710 nodes_with_types=254460 secs=18 mem_mb=906 MB
+[2026-10-02T11:25:53Z] [iter=1] Step 3: Starting LSP resolution mem_mb=906 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T11:25:53Z] [iter=1] Resolving target type target_type=call_site count=23407
+[2026-10-02T11:25:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=0 resolved=0 errors=0 current=dist/pre/index.js
+[2026-10-02T12:17:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.0 files_done=1 resolved=932 errors=2307 current=dist/main/index.js
+[2026-10-02T13:09:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=105.0 files_done=2 resolved=1865 errors=4623 current=dist/post/index.js
+[2026-10-02T14:01:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=157.1 files_done=3 resolved=2797 errors=6943 current=action/src/main.js
+[2026-10-02T14:02:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=157.6 files_done=6 resolved=2804 errors=6966 current=action/src/pre.js
+[2026-10-02T14:03:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.2 files_done=21 resolved=2804 errors=30388 current=cmd/gradle-cache/testdata/gradle-project/build-logic/build.gradle.kts
+[2026-10-02T14:03:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.9 files_done=25 resolved=2804 errors=30390 current=cmd/gradle-cache/testdata/groovy-project/src/test/java/com/example/GreetingTest.java
+[2026-10-02T14:03:45Z] [iter=1] Target type resolved target_type=call_site resolved=2804 errors=30390 secs=9472 mem_mb=906 MB
+[2026-10-02T14:03:45Z] [iter=1] Resolving target type target_type=import_statement count=8
+[2026-10-02T14:03:55Z] [iter=1] Target type resolved target_type=import_statement resolved=0 errors=0 secs=10 mem_mb=906 MB
+[2026-10-02T14:03:55Z] [iter=1] Resolving target type target_type=extends_clause count=192
+[2026-10-02T14:03:59Z] [iter=1] Target type resolved target_type=extends_clause resolved=192 errors=0 secs=4 mem_mb=906 MB
+[2026-10-02T14:04:18Z] [iter=1] Step 5: Writing final enrichment file triples=175925
+[2026-10-02T14:04:20Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/dd4f7350c97faae6e8eeb998997a97b17488542c.nq.gz size_kb=2986
+[2026-10-02T14:04:20Z] [iter=1] PHASE END: enrich elapsed_s=9570 elapsed_min=159.5 total_triples=175925
