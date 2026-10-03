@@ -147,7 +147,9 @@
           "githubUrl": "https://github.com/klauspost/cpuid",
           "source": "build_file:go.mod"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/dd4f7350c97faae6e8eeb998997a97b17488542c/chunk-001.nq.gz",
+      "dep": "dep/dd4f7350c97faae6e8eeb998997a97b17488542c.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
